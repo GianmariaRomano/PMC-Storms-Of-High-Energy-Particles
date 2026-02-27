@@ -9,10 +9,10 @@ MPIRUN_FLAGS = -np $(MPI_PROCS) \
 # --- Compiler Flags ---
 # Flags for MPI+OpenMP code
 # Uncomment and add extra flags if you need them
-MPI_OMP_EXTRA_CFLAGS = -O3
+MPI_OMP_EXTRA_CFLAGS = -O3 -march=native -fno-math-errno -fno-trapping-math -fstrict-aliasing
 #MPI_OMP_EXTRA_LIBS =
 
 # Flags for CUDA code
 # Uncomment and add extra flags if you need them
-#CUDA_EXTRA_CFLAGS =
+CUDA_EXTRA_CFLAGS = -O3
 #CUDA_EXTRA_LIBS =
