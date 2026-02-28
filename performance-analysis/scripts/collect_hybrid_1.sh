@@ -10,7 +10,15 @@ source /home/guest/init-hpc.sh
 export OMPI_MCA_btl_vader_single_copy_mechanism=none
 export UCX_TLS=^xpmem
 
-OUTDIR="report5/hybrid1"
+make clean
+make energy_storms_mpi_omp
+
+if [ $? -ne 0 ]; then
+    echo "Error compiling OpenMP+MPI. Exiting now."
+    exit 1
+fi
+
+OUTDIR="report/hybrid1"
 mkdir -p "$OUTDIR"
 FILE="$OUTDIR/data_hybrid_1.csv"
 NUM_RUNS=5
@@ -37,7 +45,7 @@ for ts in "${TESTS[@]}"; do
         export OMP_NUM_THREADS=$nt
         times=()
         for ((r=0; r<NUM_RUNS; r++)); do
-            t=$(mpirun -np 1 --bind-to none ./energy_storms_mpi_omp_9 "$size" $files | grep -oP 'Time: \K[0-9.]+')
+            t=$(mpirun -np 1 --bind-to none ./energy_storms_mpi_omp "$size" $files | grep -oP 'Time: \K[0-9.]+')
             times+=($t)
         done
         # Calcolo statistiche con awk
