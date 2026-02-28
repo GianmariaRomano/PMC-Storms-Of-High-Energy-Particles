@@ -9,7 +9,15 @@
 source /home/guest/init-hpc.sh
 export UCX_TLS=^xpmem
 
-OUTDIR="report5/hybrid4"
+make clean
+make energy_storms_mpi_omp
+
+if [ $? -ne 0 ]; then
+    echo "Error compiling OpenMP+MPI. Exiting now."
+    exit 1
+fi
+
+OUTDIR="report/hybrid4"
 mkdir -p "$OUTDIR"
 FILE="$OUTDIR/data_hybrid_4.csv"
 NUM_RUNS=5
@@ -36,7 +44,7 @@ for ts in "${TESTS[@]}"; do
         times=()
         for ((r=0; r<NUM_RUNS; r++)); do
             # Lancio su 4 nodi, 1 processo per nodo
-            t=$(mpirun -np 4 --map-by node ./energy_storms_mpi_omp_9 "$size" $files | grep -oP 'Time: \K[0-9.]+')
+            t=$(mpirun -np 4 --map-by node ./energy_storms_mpi_omp "$size" $files | grep -oP 'Time: \K[0-9.]+')
             times+=($t)
         done
         stats=$(echo "${times[@]}" | awk '{
