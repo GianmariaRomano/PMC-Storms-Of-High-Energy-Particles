@@ -7,9 +7,17 @@
 
 source /home/guest/init-hpc.sh
 
-OUTDIR="report5/cuda"
+make clean
+make energy_storms_cuda
+
+if [ $? -ne 0 ]; then
+    echo "Error compiling CUDA. Exiting now."
+    exit 1
+fi
+
+OUTDIR="report/cuda"
 mkdir -p "$OUTDIR"
-FILE="$OUTDIR/data_cuda_256.csv"
+FILE="$OUTDIR/data_cuda.csv"
 NUM_RUNS=5
 
 echo "test,r1,r2,r3,r4,r5,min,max,avg,std" > "$FILE"
@@ -30,7 +38,7 @@ for ts in "${TESTS[@]}"; do
     IFS=':' read -r name size part storm files <<< "$ts"
     times=()
     for ((r=0; r<NUM_RUNS; r++)); do
-        t=$(./energy_storms_cuda_new "$size" $files | grep -oP 'Time: \K[0-9.]+')
+        t=$(./energy_storms_cuda "$size" $files | grep -oP 'Time: \K[0-9.]+')
         times+=($t)
     done
     stats=$(echo "${times[@]}" | awk '{
