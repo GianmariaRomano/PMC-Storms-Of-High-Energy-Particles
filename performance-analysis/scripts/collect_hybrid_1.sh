@@ -4,6 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:30:00
+#SBATCH --exclusive=user
 #SBATCH --output=report5/hybrid1/slurm_%j.log
 
 source /home/guest/init-hpc.sh
