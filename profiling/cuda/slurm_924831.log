@@ -1,0 +1,96 @@
+==================================================
+   Custom OpenMPI Environment Loaded
+==================================================
+MPI_HOME: /home/guest/openmpi-4.1.6
+mpicc is: /home/guest/openmpi-4.1.6/bin/mpicc
+Version:  mpirun (Open MPI) 4.1.6
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+energy_storms_cuda_core_new.cu(136): warning #177-D: variable "k" was declared but never referenced
+      int k = blockDim.x * blockIdx.x + threadIdx.x;
+          ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+

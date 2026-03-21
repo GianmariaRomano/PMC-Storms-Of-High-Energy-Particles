@@ -1,0 +1,81 @@
+
+Time: 0.153549
+Result: 507805 12177.071289 400548 23157.615234 511786 34230.769531 511786 44824.339844
+Collecting data...
+Generating '/tmp/nsys-report-8194.qdstrm'
+[1/8] [0%                          ] nsys_test_07_bs32.nsys-rep[1/8] [0%                          ] nsys_test_07_bs32.nsys-rep[1/8] [===23%                      ] nsys_test_07_bs32.nsys-rep[1/8] [===24%                      ] nsys_test_07_bs32.nsys-rep[1/8] [========41%                 ] nsys_test_07_bs32.nsys-rep[1/8] [=============58%            ] nsys_test_07_bs32.nsys-rep[1/8] [=============60%            ] nsys_test_07_bs32.nsys-rep[1/8] [==============61%           ] nsys_test_07_bs32.nsys-rep[1/8] [==============62%           ] nsys_test_07_bs32.nsys-rep[1/8] [===============65%          ] nsys_test_07_bs32.nsys-rep[1/8] [================71%         ] nsys_test_07_bs32.nsys-rep[1/8] [=====================89%    ] nsys_test_07_bs32.nsys-rep[1/8] [========================100%] nsys_test_07_bs32.nsys-rep[1/8] [========================100%] nsys_test_07_bs32.nsys-rep
+[2/8] [0%                          ] nsys_test_07_bs32.sqlite[2/8] [1%                          ] nsys_test_07_bs32.sqlite[2/8] [2%                          ] nsys_test_07_bs32.sqlite[2/8] [3%                          ] nsys_test_07_bs32.sqlite[2/8] [4%                          ] nsys_test_07_bs32.sqlite[2/8] [5%                          ] nsys_test_07_bs32.sqlite[2/8] [6%                          ] nsys_test_07_bs32.sqlite[2/8] [7%                          ] nsys_test_07_bs32.sqlite[2/8] [8%                          ] nsys_test_07_bs32.sqlite[2/8] [9%                          ] nsys_test_07_bs32.sqlite[2/8] [10%                         ] nsys_test_07_bs32.sqlite[2/8] [11%                         ] nsys_test_07_bs32.sqlite[2/8] [12%                         ] nsys_test_07_bs32.sqlite[2/8] [13%                         ] nsys_test_07_bs32.sqlite[2/8] [14%                         ] nsys_test_07_bs32.sqlite[2/8] [=15%                        ] nsys_test_07_bs32.sqlite[2/8] [=16%                        ] nsys_test_07_bs32.sqlite[2/8] [=17%                        ] nsys_test_07_bs32.sqlite[2/8] [==18%                       ] nsys_test_07_bs32.sqlite[2/8] [==19%                       ] nsys_test_07_bs32.sqlite[2/8] [==20%                       ] nsys_test_07_bs32.sqlite[2/8] [==21%                       ] nsys_test_07_bs32.sqlite[2/8] [===22%                      ] nsys_test_07_bs32.sqlite[2/8] [===23%                      ] nsys_test_07_bs32.sqlite[2/8] [===24%                      ] nsys_test_07_bs32.sqlite[2/8] [====25%                     ] nsys_test_07_bs32.sqlite[2/8] [====26%                     ] nsys_test_07_bs32.sqlite[2/8] [====27%                     ] nsys_test_07_bs32.sqlite[2/8] [====28%                     ] nsys_test_07_bs32.sqlite[2/8] [=====29%                    ] nsys_test_07_bs32.sqlite[2/8] [=====30%                    ] nsys_test_07_bs32.sqlite[2/8] [=====31%                    ] nsys_test_07_bs32.sqlite[2/8] [=====32%                    ] nsys_test_07_bs32.sqlite[2/8] [======33%                   ] nsys_test_07_bs32.sqlite[2/8] [======34%                   ] nsys_test_07_bs32.sqlite[2/8] [======35%                   ] nsys_test_07_bs32.sqlite[2/8] [=======36%                  ] nsys_test_07_bs32.sqlite[2/8] [=======37%                  ] nsys_test_07_bs32.sqlite[2/8] [=======38%                  ] nsys_test_07_bs32.sqlite[2/8] [=======39%                  ] nsys_test_07_bs32.sqlite[2/8] [========40%                 ] nsys_test_07_bs32.sqlite[2/8] [========41%                 ] nsys_test_07_bs32.sqlite[2/8] [========42%                 ] nsys_test_07_bs32.sqlite[2/8] [=========43%                ] nsys_test_07_bs32.sqlite[2/8] [=========44%                ] nsys_test_07_bs32.sqlite[2/8] [=========45%                ] nsys_test_07_bs32.sqlite[2/8] [=========46%                ] nsys_test_07_bs32.sqlite[2/8] [==========47%               ] nsys_test_07_bs32.sqlite[2/8] [==========48%               ] nsys_test_07_bs32.sqlite[2/8] [==========49%               ] nsys_test_07_bs32.sqlite[2/8] [===========50%              ] nsys_test_07_bs32.sqlite[2/8] [===========51%              ] nsys_test_07_bs32.sqlite[2/8] [===========52%              ] nsys_test_07_bs32.sqlite[2/8] [===========53%              ] nsys_test_07_bs32.sqlite[2/8] [============54%             ] nsys_test_07_bs32.sqlite[2/8] [============55%             ] nsys_test_07_bs32.sqlite[2/8] [============56%             ] nsys_test_07_bs32.sqlite[2/8] [============57%             ] nsys_test_07_bs32.sqlite[2/8] [=============58%            ] nsys_test_07_bs32.sqlite[2/8] [=============59%            ] nsys_test_07_bs32.sqlite[2/8] [=============60%            ] nsys_test_07_bs32.sqlite[2/8] [==============61%           ] nsys_test_07_bs32.sqlite[2/8] [==============62%           ] nsys_test_07_bs32.sqlite[2/8] [==============63%           ] nsys_test_07_bs32.sqlite[2/8] [==============64%           ] nsys_test_07_bs32.sqlite[2/8] [===============65%          ] nsys_test_07_bs32.sqlite[2/8] [===============66%          ] nsys_test_07_bs32.sqlite[2/8] [===============67%          ] nsys_test_07_bs32.sqlite[2/8] [================68%         ] nsys_test_07_bs32.sqlite[2/8] [================69%         ] nsys_test_07_bs32.sqlite[2/8] [================70%         ] nsys_test_07_bs32.sqlite[2/8] [================71%         ] nsys_test_07_bs32.sqlite[2/8] [=================72%        ] nsys_test_07_bs32.sqlite[2/8] [=================73%        ] nsys_test_07_bs32.sqlite[2/8] [=================74%        ] nsys_test_07_bs32.sqlite[2/8] [==================75%       ] nsys_test_07_bs32.sqlite[2/8] [==================76%       ] nsys_test_07_bs32.sqlite[2/8] [==================77%       ] nsys_test_07_bs32.sqlite[2/8] [==================78%       ] nsys_test_07_bs32.sqlite[2/8] [===================79%      ] nsys_test_07_bs32.sqlite[2/8] [===================80%      ] nsys_test_07_bs32.sqlite[2/8] [===================81%      ] nsys_test_07_bs32.sqlite[2/8] [===================82%      ] nsys_test_07_bs32.sqlite[2/8] [====================83%     ] nsys_test_07_bs32.sqlite[2/8] [====================84%     ] nsys_test_07_bs32.sqlite[2/8] [====================85%     ] nsys_test_07_bs32.sqlite[2/8] [=====================86%    ] nsys_test_07_bs32.sqlite[2/8] [=====================87%    ] nsys_test_07_bs32.sqlite[2/8] [=====================88%    ] nsys_test_07_bs32.sqlite[2/8] [=====================89%    ] nsys_test_07_bs32.sqlite[2/8] [======================90%   ] nsys_test_07_bs32.sqlite[2/8] [======================91%   ] nsys_test_07_bs32.sqlite[2/8] [======================92%   ] nsys_test_07_bs32.sqlite[2/8] [=======================93%  ] nsys_test_07_bs32.sqlite[2/8] [=======================94%  ] nsys_test_07_bs32.sqlite[2/8] [=======================95%  ] nsys_test_07_bs32.sqlite[2/8] [=======================96%  ] nsys_test_07_bs32.sqlite[2/8] [========================97% ] nsys_test_07_bs32.sqlite[2/8] [========================98% ] nsys_test_07_bs32.sqlite[2/8] [========================99% ] nsys_test_07_bs32.sqlite[2/8] [========================100%] nsys_test_07_bs32.sqlite[2/8] [========================100%] nsys_test_07_bs32.sqlite
+SKIPPED: /home/roman_2105539/profiling/cuda/nsys_test_07_bs32.sqlite does not contain NV Tools Extension (NVTX) data.
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)    Min (ns)   Max (ns)    StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  ------------  --------  -----------  ------------  ----------------------
+     83.4    1,165,669,421         48  24,284,779.6  10,079,606.0     3,297  531,617,781  77,153,631.2  poll                  
+     15.7      220,073,044        622     353,815.2      34,690.0     1,203   51,336,878   2,156,142.3  ioctl                 
+      0.5        6,688,094         33     202,669.5      22,282.0    14,988    4,947,746     854,524.2  mmap64                
+      0.1        1,547,779         49      31,587.3      10,429.0     2,685      360,565      63,706.1  fopen                 
+      0.1          773,328          2     386,664.0     386,664.0   328,866      444,462      81,738.7  pthread_create        
+      0.0          675,972         52      12,999.5       9,673.0     5,290       55,274       9,240.8  open64                
+      0.0          673,040         10      67,304.0      58,109.0    43,110      137,197      29,304.6  sem_timedwait         
+      0.0          643,835         42      15,329.4       3,341.0     1,943      132,488      36,607.7  fclose                
+      0.0          489,196         14      34,942.6      15,854.0     6,943      225,742      56,680.5  mmap                  
+      0.0          183,855          1     183,855.0     183,855.0   183,855      183,855           0.0  fgets                 
+      0.0          116,489          1     116,489.0     116,489.0   116,489      116,489           0.0  pthread_cond_wait     
+      0.0           73,839          6      12,306.5      12,118.0     5,240       18,063       5,185.7  open                  
+      0.0           65,011          2      32,505.5      32,505.5    29,164       35,847       4,725.6  socket                
+      0.0           54,091          2      27,045.5      27,045.5    22,823       31,268       5,971.5  fread                 
+      0.0           52,940          3      17,646.7      21,360.0     9,538       22,042       7,030.6  pipe2                 
+      0.0           48,568         12       4,047.3       2,815.0     1,392       11,401       2,897.4  write                 
+      0.0           40,985         15       2,732.3       1,573.0     1,112        8,156       2,031.1  read                  
+      0.0           40,386          1      40,386.0      40,386.0    40,386       40,386           0.0  connect               
+      0.0           37,450          3      12,483.3      10,850.0     9,067       17,533       4,463.1  munmap                
+      0.0           20,910         10       2,091.0       2,163.5     1,022        3,176         864.3  fcntl                 
+      0.0           11,381          2       5,690.5       5,690.5     4,158        7,223       2,167.3  pthread_cond_broadcast
+      0.0           10,029          2       5,014.5       5,014.5     3,206        6,823       2,557.6  fwrite                
+      0.0            6,562          1       6,562.0       6,562.0     6,562        6,562           0.0  bind                  
+      0.0            3,486          2       1,743.0       1,743.0     1,382        2,104         510.5  dup                   
+      0.0            1,693          1       1,693.0       1,693.0     1,693        1,693           0.0  listen                
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)  Min (ns)   Max (ns)   StdDev (ns)            Name         
+ --------  ---------------  ---------  -----------  --------  --------  ----------  ------------  ----------------------
+     98.2      150,632,629         16  9,414,539.3  21,876.0    13,064  37,953,846  16,798,820.9  cudaMemcpy            
+      0.7        1,136,959          7    162,422.7  15,329.0     4,258     706,543     256,024.6  cudaMalloc            
+      0.5          778,230         16     48,639.4   6,938.5     5,951     571,751     139,925.8  cudaLaunchKernel      
+      0.4          669,303          7     95,614.7   7,855.0     4,178     275,776     116,592.2  cudaFree              
+      0.1           96,180          1     96,180.0  96,180.0    96,180      96,180           0.0  cudaMemset            
+      0.0           75,892          2     37,946.0  37,946.0     4,328      71,564      47,543.0  cudaDeviceSynchronize 
+      0.0            3,517          1      3,517.0   3,517.0     3,517       3,517           0.0  cuModuleGetLoadingMode
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances    Avg (ns)      Med (ns)     Min (ns)    Max (ns)   StdDev (ns)                            Name                           
+ --------  ---------------  ---------  ------------  ------------  ----------  ----------  -----------  ---------------------------------------------------------
+     99.0      148,929,553          4  37,232,388.3  37,403,411.0  36,509,513  37,613,218    511,473.8  update_storm(float *, int, int *, int)                   
+      0.8        1,160,760          4     290,190.0     289,534.0     285,246     296,446      4,645.3  global_max_reduction(float *, int *, float *, int *, int)
+      0.1          195,231          4      48,807.8      48,767.5      48,192      49,504        609.4  local_max_reduction(float *, float *, int *, int)        
+      0.1          176,861          4      44,215.3      44,143.5      43,551      45,023        729.6  relaxation(float *, float *, int)                        
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)            Operation           
+ --------  ---------------  -----  --------  --------  --------  --------  -----------  ------------------------------
+     51.3           38,848      4   9,712.0   9,680.0     9,152    10,336        489.2  [CUDA memcpy Device-to-Device]
+     25.6           19,360      4   4,840.0   4,704.0     3,904     6,048        951.9  [CUDA memcpy Host-to-Device]  
+     16.0           12,096      8   1,512.0   1,568.0     1,312     1,696        166.5  [CUDA memcpy Device-to-Host]  
+      7.1            5,408      1   5,408.0   5,408.0     5,408     5,408          0.0  [CUDA memset]                 
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)            Operation           
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------------------
+     16.000      4     4.000     4.000     4.000     4.000        0.000  [CUDA memcpy Device-to-Device]
+      4.000      1     4.000     4.000     4.000     4.000        0.000  [CUDA memset]                 
+      0.160      4     0.040     0.040     0.040     0.040        0.000  [CUDA memcpy Host-to-Device]  
+      0.000      8     0.000     0.000     0.000     0.000        0.000  [CUDA memcpy Device-to-Host]  
+
+Generated:
+    /home/roman_2105539/profiling/cuda/nsys_test_07_bs32.nsys-rep
+    /home/roman_2105539/profiling/cuda/nsys_test_07_bs32.sqlite

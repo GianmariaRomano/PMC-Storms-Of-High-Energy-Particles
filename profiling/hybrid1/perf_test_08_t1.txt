@@ -1,0 +1,24 @@
+
+Time: 3.695016
+Result: 10 0.000080 658423 0.000081 658423 0.000078
+
+ Performance counter stats for 'mpirun -np 1 --bind-to none ./energy_storms_mpi_omp_9 100000000 test_files/test_08_a100M_p1_w1 test_files/test_08_a100M_p1_w2 test_files/test_08_a100M_p1_w3':
+
+          4,424.61 msec cpu-clock                        #    0.978 CPUs utilized             
+          4,426.50 msec task-clock                       #    0.979 CPUs utilized             
+             1,047      context-switches                 #  236.631 /sec                      
+               142      cpu-migrations                   #   32.093 /sec                      
+           466,839      page-faults                      #  105.510 K/sec                     
+    11,761,023,989      cycles                           #    2.658 GHz                         (83.37%)
+    14,609,024,140      instructions                     #    1.24  insn per cycle              (83.38%)
+     2,575,584,922      branches                         #  582.105 M/sec                       (83.32%)
+        78,416,552      branch-misses                    #    3.04% of all branches             (83.35%)
+     3,591,089,145      L1-dcache-loads                  #  811.618 M/sec                       (83.23%)
+       150,040,081      L1-dcache-load-misses            #    4.18% of all L1-dcache accesses   (83.38%)
+
+       4.522799414 seconds time elapsed
+
+       2.631633000 seconds user
+       1.801971000 seconds sys
+
+
