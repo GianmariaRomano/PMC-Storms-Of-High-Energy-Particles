@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:1
 #SBATCH --time=00:30:00
-#SBATCH --output=report5/cuda/slurm_%j.log
+#SBATCH --output=report/cuda/slurm_%j.log
 
 source /home/guest/init-hpc.sh
 
