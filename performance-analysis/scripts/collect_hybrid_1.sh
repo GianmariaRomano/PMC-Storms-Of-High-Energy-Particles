@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:30:00
 #SBATCH --exclusive=user
-#SBATCH --output=report5/hybrid1/slurm_%j.log
+#SBATCH --output=report/hybrid1p/slurm_%j.log
 
 source /home/guest/init-hpc.sh
 export OMPI_MCA_btl_vader_single_copy_mechanism=none
@@ -19,7 +19,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-OUTDIR="report/hybrid1"
+OUTDIR="report/hybrid1p"
 mkdir -p "$OUTDIR"
 FILE="$OUTDIR/data_hybrid_1.csv"
 NUM_RUNS=5
