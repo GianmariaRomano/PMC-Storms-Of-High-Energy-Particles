@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:30:00
 #SBATCH --exclusive=user
-#SBATCH --output=report5/hybrid4/slurm_%j.log
+#SBATCH --output=report/hybrid4p/slurm_%j.log
 
 source /home/guest/init-hpc.sh
 export UCX_TLS=^xpmem
@@ -18,7 +18,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-OUTDIR="report/hybrid4"
+OUTDIR="report/hybrid4p"
 mkdir -p "$OUTDIR"
 FILE="$OUTDIR/data_hybrid_4.csv"
 NUM_RUNS=5
