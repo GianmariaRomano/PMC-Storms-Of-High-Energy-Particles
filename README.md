@@ -37,7 +37,7 @@ The implementation provided in the `energy_storms_cuda_core.cu` file aims to pro
 
 ---
 
-## 🌍 Results
+## 🌍 Results (Coming Soon)
 
 The performance evaluation at the end of the project will include a comparison between sequential and parallel implementations, along with performance analysis and bottleneck discussions.
 
