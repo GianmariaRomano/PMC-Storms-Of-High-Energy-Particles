@@ -21,12 +21,12 @@ TESTS=(
 )
 
 make clean
-make energy_storms_mpi_omp_9
+make energy_storms_mpi_omp
 for test_spec in "${TESTS[@]}"; do
     IFS=':' read -r name size files <<< "$test_spec"
     for nt in "${THREAD_COUNTS[@]}"; do
         export OMP_NUM_THREADS=$nt
         perf stat -e $PERF_EVENTS mpirun -np 1 --bind-to none \
-            ./energy_storms_mpi_omp_9 "$size" $files > "profiling/hybrid1p/perf_${name}_t${nt}.txt" 2>&1
+            ./energy_storms_mpi_omp "$size" $files > "profiling/hybrid1p/perf_${name}_t${nt}.txt" 2>&1
     done
 done
