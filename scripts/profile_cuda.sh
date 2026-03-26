@@ -19,11 +19,11 @@ for test_spec in "${TESTS[@]}"; do
     IFS=':' read -r name size files <<< "$test_spec"
     for bs in "${BLOCK_SIZES[@]}"; do
         make clean >/dev/null
-        make energy_storms_cuda_new CUDA_EXTRA_CFLAGS="-DBLOCK_SIZE=$bs" >/dev/null
+        make energy_storms_cuda CUDA_EXTRA_CFLAGS="-DBLOCK_SIZE=$bs" >/dev/null
 
         # Genera il report .nsys-rep e il log testuale dei kernel
         nsys profile --stats=true --force-overwrite=true \
             -o "profiling/cuda/nsys_${name}_bs${bs}" \
-            ./energy_storms_cuda_new "$size" $files > "profiling/cuda/stats_${name}_bs${bs}.txt" 2>&1
+            ./energy_storms_cuda "$size" $files > "profiling/cuda/stats_${name}_bs${bs}.txt" 2>&1
     done
 done
