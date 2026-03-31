@@ -4,7 +4,8 @@ MPI_PROCS=4
 
 # --- MPI Run Flags ---
 MPIRUN_FLAGS = -np $(MPI_PROCS) \
-               --bind-to none
+               --map-by node:PE=$(OMP_NUM_THREADS) \
+               --bind-to core
 
 # --- Compiler Flags ---
 # Flags for MPI+OpenMP code
